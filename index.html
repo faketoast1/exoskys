@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exoplanet Exploration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url("molk.jpeg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            color: #ffffff; /* Light text for contrast */
+            text-align: center; /* Align text to the left */
+            padding: 20px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        h2 {
+            font-size: 5em;
+        }
+        h3{
+            font-size: 5em;
+        }
+        h4{
+            font-size: 5em;
+        }
+        h5{
+            font-size:5em;
+        }
+        p {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        img {
+            border: 2px solid #ffffff; /* White border for images */
+            border-radius: 10px; /* Rounded corners */
+            width: 100%; /* Set images to 100% width of their container */
+            height: auto; /* Maintain aspect ratio */
+            margin: 10px 0; /* Space between images */
+            max-width: 800px; /* Optional: set a max width to limit size */
+        }
+        .planet-selection {
+            display: flex;
+            flex-direction:row; /* Stack images vertically */
+            align-items: flex-start; /* Align images to the left */
+            justify-content: center;
+        }
+        footer {
+            margin-top: 40px;
+            font-size: 0.9em;
+            color: #cccccc; /* Lighter text for footer */
+        }
+        #planet1-map {
+            border: 1px solid red;
+            margin: auto;
+            display: flex;
+            flex-direction:column; /* Stack images vertically */
+            align-items: flex-start; /* Align images to the left */
+            justify-content: left;
+        }
+        .map-wrapper {
+            width: 100%;
+            border: 1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Exoplanet Site</h1>
+    <p>Here,you can chose from 4 exoplanets to see what we think the Milky Way may look from there.</p>
+    
+    <div class="planet-selection">
+        <img src="no.png" alt="Planet 1: HD189733b">
+        <img src="yes.png" alt="Planet 2: HD189733b">
+        <br>
+        <img src="kepler409b.webp" alt="Planet 1: HD189733b">
+        <img src="TOI 2981b.webp" alt="Planet 2: HD189733b">
+    </div>
+    
+</body>
+<h2>Gliese 12 b:</h2>
+<a href="link_to_star_map.html">
+    <img src="no.png" alt="View of Gliese 12 b:" usemap="#workmap">
+    
+</a>
+<h3>HD189733b:</h3>
+<br>
+<a href="starmap2.html">
+    <img src="yes.png" alt="View of Planet 1: HD189733 b:" usemap="#workmap">
+</a>
+<h4>kepler409b:</h4>
+<br>
+<a href="starmap3.html">
+    <img src="kepler409b.webp" alt="View of Keplar409 b:" usemap="#workmap">
+    
+</a>
+<h5>TOI 2981 b:</h5>
+<br>
+<a href="starmap4.html">
+    <img src="TOI 2981b.webp" alt="View of TOI 2981b" usemap="#workmap">
+</a>
+
+</html>
